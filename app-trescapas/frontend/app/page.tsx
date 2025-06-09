@@ -12,7 +12,7 @@ interface Task {
   completed: boolean;
 }
 
-const API_BASE = 'http://localhost:3001/api/tareas'; // Cambia el puerto si usas otro
+const API_BASE = 'http://localhost:3001/api/tareas';
 
 export default function Home() {
   const [tasks, setTasks] = useState<Task[]>([]);
